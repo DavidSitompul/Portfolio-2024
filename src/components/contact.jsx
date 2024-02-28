@@ -51,7 +51,7 @@ const Contact = () => {
       <section className="mt-10">
         <div className="lg:flex  px-6 py-12 mx-auto">
           <div className="lg:w-[30%]">
-            <p className="font-semibold text-green-500 dark:text-green-400 text-3xl">Let's Connect !!!</p>
+            <p className="font-semibold text-green-500 dark:text-green-400 text-3xl"> {`Let's Connect !!!`} </p>
 
             <h1 className="mt-2 text-sm text-gray-800 md:text-lg dark:text-white">you can contact me with this</h1>
           </div>

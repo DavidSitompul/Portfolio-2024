@@ -17,7 +17,7 @@ export default function Home() {
           </h1>
           <div className=" lg:mt-9 text-[14px] lg:text-[20px] flex-col space-y-5 mt-[115%]">
             <p className="indent-3"> Bachelor of Computer Science, University of North Sumatra. Still learning about programming</p>
-            <p className="indent-3 mt-2 italic"> "There are no failed dreams only delayed dreams. If you feel like youve failed to achieve your dream dont worry another dream can be created"</p>
+            <p className="indent-3 mt-2 italic">{`"There are no failed dreams only delayed dreams. If you feel like youve failed to achieve your dream dont worry another dream can be created"`}</p>
           </div>
           <a href="/cv/Transkip Nilai_terbaru.pdf" download={true}>
             <button className="bg-[#368B85] px-5 py-2 mt-6 lg:mt-12 rounded-lg shadow-md text-white font-semibold">Download My CV</button>
