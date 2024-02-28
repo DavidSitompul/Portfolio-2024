@@ -9,16 +9,8 @@ const Experience = () => {
       questionExperience: "Education Level",
       photoExperience: [
         {
-          foto: "/img/GMI.png",
-          ket: "3",
-        },
-        {
-          foto: "/img/GMI.png",
-          ket: "2",
-        },
-        {
-          foto: "/img/GMI.png",
-          ket: "1",
+          foto: "/certificate/wisuda.JPG",
+          ket: "Bachelor of Computer Science",
         },
       ],
     },
@@ -26,16 +18,16 @@ const Experience = () => {
       questionExperience: "Organization Certificate",
       photoExperience: [
         {
-          foto: "/img/GMI.png",
-          ket: "1",
+          foto: "/certificate/Pema.jpg",
+          ket: "Pema ( 2021-2022 )",
         },
         {
-          foto: "/img/GMI.png",
-          ket: "2",
+          foto: "/certificate/Salinan David Paul Sitompul-04.png",
+          ket: "Committee ( 2021 )",
         },
         {
-          foto: "/img/GMI.png",
-          ket: "3",
+          foto: "/certificate/David Paul Sitompul.png",
+          ket: "Participant",
         },
       ],
     },
@@ -43,24 +35,8 @@ const Experience = () => {
       questionExperience: "Internship Certificate",
       photoExperience: [
         {
-          foto: "/img/GMI.png",
-          ket: "3",
-        },
-        {
-          foto: "/img/GMI.png",
-          ket: "2",
-        },
-        {
-          foto: "/img/GMI.png",
-          ket: "1",
-        },
-        {
-          foto: "/img/GMI.png",
-          ket: "1",
-        },
-        {
-          foto: "/img/GMI.png",
-          ket: "1",
+          foto: "/certificate/Hasil_191401086_1.jpg",
+          ket: "Internship 2022",
         },
       ],
     },
@@ -88,7 +64,7 @@ const Experience = () => {
                           <div className="relative h-[200px] w-[75%] lg:w-[300px] mb-5 lg:mb-0 space-x-5">
                             <Image src={proof.foto} className="border rounded-xl p-2 text-sm relative" fill alt="..."></Image>
                           </div>
-                          <h1 className="w-[25%] lg:w-[35%]"> Lorem ipsum dolor sit amet consectetur</h1>
+                          <h1 className="w-[25%] lg:w-[35%] font-bold"> {proof.ket} </h1>
                         </div>
                       )
                     })}
