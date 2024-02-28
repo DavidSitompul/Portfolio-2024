@@ -3,7 +3,7 @@ import Image from "next/image"
 
 const About = () => {
   return (
-    <div className="flex flex-col-reverse lg:flex-row mx-10 lg:mt-10 mb-10">
+    <div className="flex flex-col-reverse lg:flex-row mx-10 mt-16 mb-10">
       <div className="mt-10 w-full lg:w-[40%] lg:mt-0 h-auto">
         <div className="w-full lg:h-[450px] h-[340px] relative">
           <Image src="/img/about_me.jpg" fill alt="foto" className="rounded-2xl" />
