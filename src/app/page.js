@@ -8,6 +8,7 @@ import Contact from "@/components/contact"
 export default function Home() {
   return (
     <main className="w-full">
+      <h1>TESTING</h1>
       <div className="h-auto w-[90%] m-auto lg:h-[500px] mt-16 ">
         <div className="w-full lg:w-[50%] h-auto">
           <h1 className="text-[20px] lg:text-[33px] text-[#464660]">
@@ -31,7 +32,6 @@ export default function Home() {
           </a>
         </div>
       </div>
-
       <About />
       <Experience />
       <Project />
